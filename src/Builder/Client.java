@@ -23,6 +23,13 @@ public class Client {
                 .setUnivName("XYZ")
                 .setBatch("Morning")
                 .build();
+
+        QueryBuilder query = QueryBuilder.builder()
+                .select("all cols")
+                .from("table")
+                .build();
+
+        System.out.println("Query builder :");
     }
 }
 

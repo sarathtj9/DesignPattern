@@ -1,5 +1,7 @@
 package Singleton;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class Main {
         //Initial code
         DatabaseConnection db = DatabaseConnection.getInstance();
         DatabaseConnection db1= DatabaseConnection.getInstance();
+
 
         // Create multiple threads
         for (int i = 0; i < 10; i++) {
