@@ -1,6 +1,6 @@
-package Adapter;
+package Structural.Adapter;
 
-import Adapter.thirdparty.ICICIBank;
+import Structural.Adapter.thirdparty.ICICIBank;
 
 public class ICICIAdapter implements BankApiAdapter {
 

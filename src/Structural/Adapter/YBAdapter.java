@@ -1,6 +1,6 @@
-package Adapter;
+package Structural.Adapter;
 
-import Adapter.thirdparty.YesBank;
+import Structural.Adapter.thirdparty.YesBank;
 
 public class YBAdapter implements BankApiAdapter{
 

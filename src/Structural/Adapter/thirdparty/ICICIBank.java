@@ -1,4 +1,4 @@
-package Adapter.thirdparty;
+package Structural.Adapter.thirdparty;
 
 public class ICICIBank {
 
